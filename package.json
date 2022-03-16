@@ -1,0 +1,25 @@
+{
+  "name": "reactnode",
+  "version": "1.0.0",
+  "description": "리액트노드서버연결",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heretics7/ReactNode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heretics7/ReactNode/issues"
+  },
+  "homepage": "https://github.com/heretics7/ReactNode#readme",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  }
+}
