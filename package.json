@@ -4,8 +4,10 @@
   "description": "리액트노드서버연결",
   "main": "server.js",
   "scripts": {
+    "server": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "react": "cd front && npm start",
+    "start": "concurrently --kill-others-fail \"npm run server\" \"npm run react\""
   },
   "repository": {
     "type": "git",
